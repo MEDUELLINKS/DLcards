@@ -1,0 +1,278 @@
+.navbar {
+    width:100%;
+    margin-top:-17px;
+    
+	
+}
+.show {
+        display:inline !important;
+    }  
+    #List a {
+  display: none;
+}
+#deck-toggle {
+       margin:5px;
+       width:45%
+    }
+.navbar .navbar-nav > li > a {
+    font-size:25 !important;
+    color: white !important;
+    padding:0 20px !important;
+    transition: 0.3s !important;
+    font-family: 'Audiowide' !important;
+}
+#dolphin {
+    width:70px;
+}
+.navbar .navbar-nav > li > a:hover {
+    color:#515A5A !important;
+}
+
+.navbar-content {
+    text-align: center;
+}
+.boarder {
+    padding:10px;
+    border-bottom-style: solid;
+    border-width: 2px;
+    border-color: #BFC1B8;
+}
+.smart-scroll{
+	position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
+.scrolled-down{
+	transform:translateY(-100%); transition: all 0.3s ease-in-out;
+}
+.scrolled-up{
+	transform:translateY(0); transition: all 0.3s ease-in-out;
+}
+.logo {
+    width:150px;
+}
+
+.fixed-top {
+    transition: all 1s ease-in-out;
+}
+  
+
+.tooltip.show {
+  opacity: 1; }
+
+body {
+  background-color: #2c353a;
+  color:#FEFCFF;
+    
+}
+.content {
+    
+  margin:10px;
+}
+
+.deck-card {
+  margin-top: 19px;
+  float: left;  
+  width: 20%}
+  
+.card-img {
+    width:115px;
+}
+.UR:before {
+  content: url("https://www.duellinksmeta.com/img/assets/UR.png");
+  transform: scale(.34);
+  position: absolute;
+  margin-left: 8px;
+  margin-top: -27px; }
+  
+
+.SR:before {
+  content: url("https://www.duellinksmeta.com/img/assets/SR.png");
+  transform: scale(.34);
+  position: absolute;
+  margin-left: 8px;
+  margin-top: -27px; }
+
+.R:before {
+  content: url("https://www.duellinksmeta.com/img/assets/R.png");
+  transform: scale(.34);
+  position: absolute;
+  margin-left: 8px;
+  margin-top: -27px; }
+
+.N:before {
+  content: url("https://www.duellinksmeta.com/img/assets/N.png");
+  transform: scale(.34);
+  position: absolute;
+  margin-left: 8px;
+  margin-top: -27px; }
+                
+  .skill {
+      position: relative;
+      text-align-last: center;
+      font-size:28;
+      left:22px;
+      font-family: 'Asul';
+  }
+    
+  .skill:before {
+  content: url("https://images.weserv.nl/?url=https://raw.githubusercontent.com/MEDUELLINKS/DLcards/main/skill.png&il&w=50&h=50");
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  margin-left:-55px;
+  margin-top:-5px;
+  z-index:1000;
+      
+  }
+
+.deck-container {
+  width: 600px;
+    margin-left: 5%;
+   }
+      
+.tournament-banner{
+     width: 700px;
+}
+
+.text-short 
+  {font-size:40;
+  position:relative;
+  font-family: 'Metal Mania';
+  white-space: nowrap;
+  }
+    
+.text-dialouge 
+  {font-size:30;
+  font-family: 'Audiowide';
+  white-space: nowrap;
+  }
+
+.title
+  {font-size:80;
+  font-family: 'Asul';
+  white-space: nowrap;
+  }
+.navbar-color { 
+    background-color: #0C090A; 
+} 
+.navbar-color .navbar-brand, 
+        .navbar-color .navbar-text { 
+            color: #0C090A; 
+        } 
+  
+.navbar-toggler {
+    width:90px;
+    height:90px;
+    background-color:grey;
+}
+.navbar-toggler-icon {
+    width:60px;
+    height:60px;
+}
+.tooltip .tooltip-inner {
+    position:relative !important;
+    max-width:500px; !important;
+    width:500px;
+    html:true;
+    text-align:left;
+    display: initial;
+    float:left;
+}
+
+
+
+@media (min-width: 992px) {
+    .deck-card {
+  width: 10%; }
+  
+  .navbar {
+    margin:0;
+	
+}
+
+  .deck-container {
+  width: 1270px;
+    margin-left: 20px;
+   }
+   
+    .logo{
+      width: 62px; } 
+      
+    .title {
+      font-size:40; 
+    }
+    
+    .text-dialouge {
+      font-size:19; 
+      width:850px;
+    }
+    
+    .text-short {
+      font-size:25;
+    }  
+    
+    .tournament-banner {
+      width: 800px; } 
+    .skill:before {
+      content: url("https://images.weserv.nl/?url=https://raw.githubusercontent.com/MEDUELLINKS/DLcards/main/skill.png&il&w=34&h=34");
+      text-align-last: left;
+      left:18px;
+        
+    }
+    
+    .skill {
+      text-align-last: left;
+      left:22px;
+      font-size:19;
+     }
+     
+    .N:before {
+      transform: scale(.37);
+      margin-left: 15px;
+      margin-top: -28px;  
+                }
+    .R:before {
+      transform: scale(.37);;
+      margin-left: 15px;
+      margin-top: -28px;  
+                }
+    .SR:before {
+      transform: scale(.37);
+      margin-left: 15px;
+      margin-top: -28px;  
+                }
+    .UR:before {
+      transform: scale(.37);
+      margin-left: 15px;
+      margin-top: -28px;  
+                }
+                
+    .card-img {
+      width: 125px; }
+      
+    .after-navbar {
+    margin-top:90px;
+    }
+    #dolphin {
+        width:40px;
+    }
+    
+}
+@media (max-width: 1600px) {
+    .navbar .navbar-nav > li > a {
+    font-size:20 !important;
+    padding:0 10px !important;
+}
+
+@media (max-width: 992px) {
+    .navbar .navbar-nav > li > a {
+    font-size:40 !important;
+    border-width:0px;
+}
+    
+}
+/*# sourceMappingURL=style.css.map */
+
